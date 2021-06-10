@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/home_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/sports_news"
+        android:textAlignment="center"
+        android:textAppearance="@style/ThemeOverlay.AppCompat.Dark"
+        android:textColor="#F1E6E6"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/homeCricketImageView"
+        android:layout_width="157dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="48dp"
+
+        android:src="@drawable/cricket"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_header" />
+
+    <TextView
+        android:id="@+id/cricketNewsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="140dp"
+        android:text="@string/cricket_new"
+        android:textAlignment="center"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Cricket1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_header"
+        app:layout_constraintVertical_bias="0.562" />
+
+    <TextView
+        android:id="@+id/Cricket1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="@string/cricket_news_heading_1"
+
+
+        android:textAlignment="viewStart"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintStart_toEndOf="@+id/homeCricketImageView"
+        app:layout_constraintTop_toBottomOf="@+id/home_header" />
+
+    <TextView
+        android:id="@+id/Cricket2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+
+
+        android:text="@string/cricket_news_heading_2"
+        android:textAlignment="viewStart"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toEndOf="@+id/homeCricketImageView"
+        app:layout_constraintTop_toBottomOf="@+id/Cricket1" />
+
+    <TextView
+        android:id="@+id/Cricket3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginTop="8dp"
+        android:text="@string/cricket_news_heading_3"
+        android:textAlignment="viewStart"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toEndOf="@+id/homeCricketImageView"
+        app:layout_constraintTop_toBottomOf="@+id/Cricket2" />
+
+
+    <TextView
+        android:id="@+id/CricketReadMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginTop="8dp"
+        android:text="@string/read_more_news"
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold|italic"
+        android:onClick="cricketReadmore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toEndOf="@+id/homeCricketImageView"
+        app:layout_constraintTop_toBottomOf="@+id/Cricket3" />
+
+    <ImageView
+        android:id="@+id/homeFootballImageView"
+        android:layout_width="152dp"
+        android:layout_height="141dp"
+
+        android:layout_marginStart="12dp"
+
+        android:layout_marginTop="48dp"
+        android:src="@drawable/football"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homeCricketImageView" />
+
+    <TextView
+        android:id="@+id/footballNewsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/football_news"
+        android:textAlignment="center"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/homeFootballImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homeCricketImageView" />
+
+    <TextView
+        android:id="@+id/Football1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+
+
+        android:text="@string/football_news_1"
+        android:textAlignment="viewStart"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.167"
+        app:layout_constraintStart_toEndOf="@+id/homeFootballImageView"
+        app:layout_constraintTop_toBottomOf="@+id/footballNewsTextView" />
+
+    <TextView
+        android:id="@+id/Football2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginTop="12dp"
+        android:text="@string/football_news_2"
+        android:textAlignment="viewStart"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.167"
+        app:layout_constraintStart_toEndOf="@+id/homeFootballImageView"
+        app:layout_constraintTop_toBottomOf="@+id/Football1" />
+
+    <TextView
+        android:id="@+id/Football3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginTop="16dp"
+        android:text="@string/football_news_3"
+        android:textAlignment="viewStart"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toEndOf="@+id/homeFootballImageView"
+        app:layout_constraintTop_toBottomOf="@+id/Football2" />
+
+    <TextView
+        android:id="@+id/FootballReadMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="FootballReadmore"
+
+
+        android:layout_marginTop="16dp"
+        android:text="@string/read_more_news"
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toEndOf="@+id/homeFootballImageView"
+        app:layout_constraintTop_toBottomOf="@+id/Football3" />
+
+    <TextView
+        android:id="@+id/TennisNewsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/tennis_news"
+        android:textAlignment="center"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homeFootballImageView" />
+
+    <ImageView
+        android:id="@+id/homeTennisImageView"
+        android:layout_width="152dp"
+        android:layout_height="141dp"
+
+        android:src="@drawable/tennis"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TennisNewsTextView" />
+
+    <TextView
+        android:id="@+id/Tennis1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginTop="24dp"
+        android:text="@string/tennis_news_1"
+        android:textAlignment="viewStart"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toEndOf="@+id/homeTennisImageView"
+        app:layout_constraintTop_toBottomOf="@+id/TennisNewsTextView" />
+
+    <TextView
+        android:id="@+id/Tennis2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginTop="12dp"
+        android:text="@string/tennis_news_2"
+        android:textAlignment="viewStart"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toEndOf="@+id/homeTennisImageView"
+        app:layout_constraintTop_toBottomOf="@+id/Tennis1" />
+
+    <TextView
+        android:id="@+id/Tennis3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginTop="12dp"
+        android:text="@string/tennis_news_3"
+        android:textAlignment="viewStart"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toEndOf="@+id/homeTennisImageView"
+        app:layout_constraintTop_toBottomOf="@+id/Tennis2" />
+
+    <TextView
+        android:id="@+id/TennisReadMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="TennisReadmore"
+
+
+        android:layout_marginTop="8dp"
+        android:text="@string/read_more_news"
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toEndOf="@+id/homeTennisImageView"
+        app:layout_constraintTop_toBottomOf="@+id/Tennis3" />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_now"
+        android:textAllCaps="true"
+        android:onClick="registerNow"
+
+        android:textColor="#FF1100"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homeTennisImageView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

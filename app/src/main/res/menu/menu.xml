@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_cricket"
+        android:icon="@drawable/ic_cricket"
+        app:showAsAction="always"
+        android:title="Cricket News" />
+    <item android:id="@+id/action_Football"
+        android:icon="@drawable/ic_football"
+        app:showAsAction="always"
+        android:title="Football News"/>
+    <item android:id="@+id/action_tennis"
+        android:title="Tennis News"
+        app:showAsAction="collapseActionView"/>
+
+
+
+
+</menu>

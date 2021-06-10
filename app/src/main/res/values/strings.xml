@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">My Demo App</string>
+    <string name="sports_news">Sports News</string>
+    <string name="cricket_new">Cricket News</string>
+    <string name="cricket_news_heading_1">Cricket News Heading 1</string>
+    <string name="cricket_news_heading_2">Cricket News Heading 2</string>
+    <string name="cricket_news_heading_3">Cricket News Heading 3</string>
+    <string name="read_more_news">Read More News</string>
+    <string name="football_news">Football News</string>
+    <string name="football_news_1">Football News Headning 1</string>
+    <string name="football_news_2">Football News Headning 2</string>
+    <string name="football_news_3">Football News Headning 3</string>
+    <string name="tennis_news">Tennis News</string>
+    <string name="tennis_news_1">Tennis News Headning 1</string>
+    <string name="tennis_news_2">Tennis News Headning 2</string>
+    <string name="tennis_news_3">Tennis News Headning 3</string>
+
+    <string name="register_now">Register Now</string>
+    <string name="register_account_now">Register Account Now</string>
+    <string name="name_label">Name :</string>
+    <string name="age">Age :</string>
+    <string name="address">Address :</string>
+    <string name="phone">Phone :</string>
+    <string name="sample_cricket_news_heading">Sample Cricket News Heading</string>
+    <string name="cricketcontent">
+
+        www.goog.com  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+
+\n
+
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+
+\n
+
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+
+\n
+
+
+
+    </string>
+    <string name="sample_football_news_heading">Sample Football News Heading</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dob">Date of Birth :</string>
+</resources>
